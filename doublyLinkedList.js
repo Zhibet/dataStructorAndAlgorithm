@@ -12,8 +12,19 @@ class DoubleLinkedList{
         this.tail = null;
         this.length = 0;
     }
+
+    add(value){
+        var newNode = new Node(value);
+        if(!this.head){
+        
+        }else{
+
+        }
+        this.length++;
+        return this;
+    }
 }
 
 
 var DoubleList = new DoubleLinkedList;
-console.log(DoubleList)
+console.log(DoubleList.add(23))
